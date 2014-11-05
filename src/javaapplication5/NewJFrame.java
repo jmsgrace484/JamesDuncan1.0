@@ -6,37 +6,10 @@
  */
 
 package javaapplication5;
-import ij.process.*;
-import ij.io.*;
-import ij.gui.ImageCanvas;
-import ij.util.Tools;
-import java.io.*;
-import java.awt.Font;
-import java.awt.image.ColorModel;
 import java.io.File;    // imports the ij.io.Opener class (includes functions to open images)
 import java.io.IOException;
 import javax.swing.JFileChooser;
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.GridBagConstraints;
-import java.awt.GridBagLayout;
-import java.awt.Image;
-import java.awt.Insets;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import ij.ImageStack;
-import ij.VirtualStack;
-import java.awt.Rectangle;
-import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
 
 
     
@@ -262,8 +235,6 @@ public class NewJFrame extends javax.swing.JFrame {
         try {
             Process p = Runtime.getRuntime().exec("C:/Program Files/ImageJ/ImageJ.exe");
         } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
         }
     }//GEN-LAST:event_OpenImageJBtnMouseClicked
 
